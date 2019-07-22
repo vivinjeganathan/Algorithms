@@ -8,24 +8,125 @@
 
 /* Begin PBXBuildFile section */
 		AC1E7BCD222CABAF0025DB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E7BCC222CABAF0025DB29 /* AppDelegate.swift */; };
-		AC1E7BCF222CABAF0025DB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E7BCE222CABAF0025DB29 /* ViewController.swift */; };
-		AC1E7BD2222CABAF0025DB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1E7BD0222CABAF0025DB29 /* Main.storyboard */; };
 		AC1E7BD4222CABB10025DB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1E7BD3222CABB10025DB29 /* Assets.xcassets */; };
 		AC1E7BD7222CABB10025DB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1E7BD5222CABB10025DB29 /* LaunchScreen.storyboard */; };
+		AC1E7BE0222CABE80025DB29 /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E7BDF222CABE80025DB29 /* BinarySearch.swift */; };
+		AC1E7BE2222CAEDE0025DB29 /* AlgorithmTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E7BE1222CAEDE0025DB29 /* AlgorithmTester.swift */; };
+		AC1E7BEA222CAFCF0025DB29 /* AlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E7BE9222CAFCF0025DB29 /* AlgorithmsTests.swift */; };
+		AC1E7CA5223020460025DB29 /* SpiralPrintArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1E7CA4223020460025DB29 /* SpiralPrintArray.swift */; };
+		AC27ADD322B4B76C003E640B /* Paranthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27ADD222B4B76C003E640B /* Paranthesis.swift */; };
+		AC27ADD522B5D3C6003E640B /* PermutationRevision.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27ADD422B5D3C6003E640B /* PermutationRevision.swift */; };
+		AC27ADD722BEFCB6003E640B /* MovingAvg.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27ADD622BEFCB5003E640B /* MovingAvg.swift */; };
+		AC27ADD922BF1485003E640B /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27ADD822BF1485003E640B /* FloodFill.swift */; };
+		AC27ADDB22C505E3003E640B /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC27ADDA22C505E3003E640B /* SpiralMatrix.swift */; };
+		ACBACD2322D13B68003E51DB /* StringCompress.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2222D13B68003E51DB /* StringCompress.swift */; };
+		ACBACD2522D163EE003E51DB /* RotatedSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2422D163EE003E51DB /* RotatedSortedArray.swift */; };
+		ACBACD2722D187D9003E51DB /* GenerateParanthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2622D187D9003E51DB /* GenerateParanthesis.swift */; };
+		ACBACD2922D1882C003E51DB /* GenerateParanthesisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2822D1882C003E51DB /* GenerateParanthesisTests.swift */; };
+		ACBACD2B22D1B92F003E51DB /* NumberOfIslands.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2A22D1B92F003E51DB /* NumberOfIslands.swift */; };
+		ACBACD2D22D1BCCA003E51DB /* NumberOfIslandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2C22D1BCCA003E51DB /* NumberOfIslandsTests.swift */; };
+		ACBACD2F22D257BE003E51DB /* BasicCalculator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD2E22D257BE003E51DB /* BasicCalculator2.swift */; };
+		ACBACD3122D2584F003E51DB /* BasicCalculator2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD3022D2584F003E51DB /* BasicCalculator2Tests.swift */; };
+		ACBACD3322D2DF67003E51DB /* CoinChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD3222D2DF67003E51DB /* CoinChange.swift */; };
+		ACBACD3522D2E532003E51DB /* CoinChangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBACD3422D2E532003E51DB /* CoinChangeTests.swift */; };
+		ACE9FECE22B230ED0079BF96 /* PerfectSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9FECD22B230ED0079BF96 /* PerfectSquare.swift */; };
+		ACE9FED022B4D3540079BF96 /* FindAllPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9FECF22B4D3530079BF96 /* FindAllPaths.swift */; };
+		ACE9FED222B561E40079BF96 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9FED122B561E40079BF96 /* GroupAnagrams.swift */; };
+		ACE9FED422B586920079BF96 /* ArrayDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9FED322B586920079BF96 /* ArrayDegree.swift */; };
+		ACE9FED622B5EA7E0079BF96 /* Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9FED522B5EA7E0079BF96 /* Subsets.swift */; };
+		ACE9FED822B616A80079BF96 /* BinaryTreeLevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9FED722B616A80079BF96 /* BinaryTreeLevelOrder.swift */; };
+		ACF7B4C2229B6A0200CDF84D /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4C1229B6A0200CDF84D /* LinkedList.swift */; };
+		ACF7B4C4229BA35300CDF84D /* MaximumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4C3229BA35300CDF84D /* MaximumSubarray.swift */; };
+		ACF7B4C6229C493C00CDF84D /* MergeIntervals.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4C5229C493C00CDF84D /* MergeIntervals.swift */; };
+		ACF7B4C8229C5CFF00CDF84D /* ProductOfArrayExceptItself.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4C7229C5CFF00CDF84D /* ProductOfArrayExceptItself.swift */; };
+		ACF7B4CA229CC9C500CDF84D /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4C9229CC9C500CDF84D /* Permutations.swift */; };
+		ACF7B4CC229E286000CDF84D /* RandomPick.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4CB229E286000CDF84D /* RandomPick.swift */; };
+		ACF7B4CE229E4EAC00CDF84D /* Recursion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4CD229E4EAC00CDF84D /* Recursion.swift */; };
+		ACF7B4D0229F9BD400CDF84D /* MaxStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4CF229F9BD400CDF84D /* MaxStack.swift */; };
+		ACF7B4D222A0B9D700CDF84D /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4D122A0B9D700CDF84D /* Graph.swift */; };
+		ACF7B4D422A0E0CD00CDF84D /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4D322A0E0CD00CDF84D /* Heap.swift */; };
+		ACF7B4D622A2279E00CDF84D /* IsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4D522A2279E00CDF84D /* IsomorphicStrings.swift */; };
+		ACF7B4D822A3027400CDF84D /* FlowerBed.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4D722A3027400CDF84D /* FlowerBed.swift */; };
+		ACF7B4DA22A30CE300CDF84D /* SumOfSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4D922A30CE300CDF84D /* SumOfSquares.swift */; };
+		ACF7B4DC22A4430900CDF84D /* SecondMinimum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4DB22A4430900CDF84D /* SecondMinimum.swift */; };
+		ACF7B4DE22A4A56300CDF84D /* BinaryZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4DD22A4A56300CDF84D /* BinaryZigZag.swift */; };
+		ACF7B4E022A4C47F00CDF84D /* BinaryTreeLCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4DF22A4C47F00CDF84D /* BinaryTreeLCA.swift */; };
+		ACF7B4E222ACB0B000CDF84D /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4E122ACB0B000CDF84D /* QuickSort.swift */; };
+		ACF7B4E422AE23D500CDF84D /* MaxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7B4E322AE23D500CDF84D /* MaxProduct.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC1E7BEC222CAFCF0025DB29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC1E7BC1222CABAE0025DB29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC1E7BC8222CABAE0025DB29;
+			remoteInfo = Algorithms;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		AC1E7BC9222CABAF0025DB29 /* Algorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1E7BCC222CABAF0025DB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC1E7BCE222CABAF0025DB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC1E7BD1222CABAF0025DB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC1E7BD3222CABB10025DB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1E7BD6222CABB10025DB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC1E7BD8222CABB10025DB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1E7BDF222CABE80025DB29 /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		AC1E7BE1222CAEDE0025DB29 /* AlgorithmTester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmTester.swift; sourceTree = "<group>"; };
+		AC1E7BE7222CAFCF0025DB29 /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1E7BE9222CAFCF0025DB29 /* AlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsTests.swift; sourceTree = "<group>"; };
+		AC1E7BEB222CAFCF0025DB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC1E7CA4223020460025DB29 /* SpiralPrintArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralPrintArray.swift; sourceTree = "<group>"; };
+		AC27ADD222B4B76C003E640B /* Paranthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paranthesis.swift; sourceTree = "<group>"; };
+		AC27ADD422B5D3C6003E640B /* PermutationRevision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationRevision.swift; sourceTree = "<group>"; };
+		AC27ADD622BEFCB5003E640B /* MovingAvg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingAvg.swift; sourceTree = "<group>"; };
+		AC27ADD822BF1485003E640B /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
+		AC27ADDA22C505E3003E640B /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
+		ACBACD2222D13B68003E51DB /* StringCompress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCompress.swift; sourceTree = "<group>"; };
+		ACBACD2422D163EE003E51DB /* RotatedSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedSortedArray.swift; sourceTree = "<group>"; };
+		ACBACD2622D187D9003E51DB /* GenerateParanthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParanthesis.swift; sourceTree = "<group>"; };
+		ACBACD2822D1882C003E51DB /* GenerateParanthesisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParanthesisTests.swift; sourceTree = "<group>"; };
+		ACBACD2A22D1B92F003E51DB /* NumberOfIslands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslands.swift; sourceTree = "<group>"; };
+		ACBACD2C22D1BCCA003E51DB /* NumberOfIslandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberOfIslandsTests.swift; sourceTree = "<group>"; };
+		ACBACD2E22D257BE003E51DB /* BasicCalculator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCalculator2.swift; sourceTree = "<group>"; };
+		ACBACD3022D2584F003E51DB /* BasicCalculator2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCalculator2Tests.swift; sourceTree = "<group>"; };
+		ACBACD3222D2DF67003E51DB /* CoinChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChange.swift; sourceTree = "<group>"; };
+		ACBACD3422D2E532003E51DB /* CoinChangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinChangeTests.swift; sourceTree = "<group>"; };
+		ACE9FECD22B230ED0079BF96 /* PerfectSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectSquare.swift; sourceTree = "<group>"; };
+		ACE9FECF22B4D3530079BF96 /* FindAllPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAllPaths.swift; sourceTree = "<group>"; };
+		ACE9FED122B561E40079BF96 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		ACE9FED322B586920079BF96 /* ArrayDegree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayDegree.swift; sourceTree = "<group>"; };
+		ACE9FED522B5EA7E0079BF96 /* Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subsets.swift; sourceTree = "<group>"; };
+		ACE9FED722B616A80079BF96 /* BinaryTreeLevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLevelOrder.swift; sourceTree = "<group>"; };
+		ACF7B4C1229B6A0200CDF84D /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		ACF7B4C3229BA35300CDF84D /* MaximumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSubarray.swift; sourceTree = "<group>"; };
+		ACF7B4C5229C493C00CDF84D /* MergeIntervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeIntervals.swift; sourceTree = "<group>"; };
+		ACF7B4C7229C5CFF00CDF84D /* ProductOfArrayExceptItself.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductOfArrayExceptItself.swift; sourceTree = "<group>"; };
+		ACF7B4C9229CC9C500CDF84D /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
+		ACF7B4CB229E286000CDF84D /* RandomPick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPick.swift; sourceTree = "<group>"; };
+		ACF7B4CD229E4EAC00CDF84D /* Recursion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recursion.swift; sourceTree = "<group>"; };
+		ACF7B4CF229F9BD400CDF84D /* MaxStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxStack.swift; sourceTree = "<group>"; };
+		ACF7B4D122A0B9D700CDF84D /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		ACF7B4D322A0E0CD00CDF84D /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		ACF7B4D522A2279E00CDF84D /* IsomorphicStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsomorphicStrings.swift; sourceTree = "<group>"; };
+		ACF7B4D722A3027400CDF84D /* FlowerBed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerBed.swift; sourceTree = "<group>"; };
+		ACF7B4D922A30CE300CDF84D /* SumOfSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfSquares.swift; sourceTree = "<group>"; };
+		ACF7B4DB22A4430900CDF84D /* SecondMinimum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMinimum.swift; sourceTree = "<group>"; };
+		ACF7B4DD22A4A56300CDF84D /* BinaryZigZag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryZigZag.swift; sourceTree = "<group>"; };
+		ACF7B4DF22A4C47F00CDF84D /* BinaryTreeLCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeLCA.swift; sourceTree = "<group>"; };
+		ACF7B4E122ACB0B000CDF84D /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		ACF7B4E322AE23D500CDF84D /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AC1E7BC6222CABAE0025DB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1E7BE4222CAFCF0025DB29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +139,9 @@
 		AC1E7BC0222CABAE0025DB29 = {
 			isa = PBXGroup;
 			children = (
+				ACE9FECD22B230ED0079BF96 /* PerfectSquare.swift */,
 				AC1E7BCB222CABAF0025DB29 /* Algorithms */,
+				AC1E7BE8222CAFCF0025DB29 /* AlgorithmsTests */,
 				AC1E7BCA222CABAF0025DB29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				AC1E7BC9222CABAF0025DB29 /* Algorithms.app */,
+				AC1E7BE7222CAFCF0025DB29 /* AlgorithmsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +158,70 @@
 		AC1E7BCB222CABAF0025DB29 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				AC1E7BDE222CABC60025DB29 /* Algorithms */,
+				AC1E7BE1222CAEDE0025DB29 /* AlgorithmTester.swift */,
 				AC1E7BCC222CABAF0025DB29 /* AppDelegate.swift */,
-				AC1E7BCE222CABAF0025DB29 /* ViewController.swift */,
-				AC1E7BD0222CABAF0025DB29 /* Main.storyboard */,
 				AC1E7BD3222CABB10025DB29 /* Assets.xcassets */,
 				AC1E7BD5222CABB10025DB29 /* LaunchScreen.storyboard */,
 				AC1E7BD8222CABB10025DB29 /* Info.plist */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		AC1E7BDE222CABC60025DB29 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E7BDF222CABE80025DB29 /* BinarySearch.swift */,
+				AC1E7CA4223020460025DB29 /* SpiralPrintArray.swift */,
+				ACF7B4C1229B6A0200CDF84D /* LinkedList.swift */,
+				ACF7B4C3229BA35300CDF84D /* MaximumSubarray.swift */,
+				ACF7B4C5229C493C00CDF84D /* MergeIntervals.swift */,
+				ACF7B4C7229C5CFF00CDF84D /* ProductOfArrayExceptItself.swift */,
+				ACF7B4C9229CC9C500CDF84D /* Permutations.swift */,
+				ACF7B4CB229E286000CDF84D /* RandomPick.swift */,
+				ACF7B4CD229E4EAC00CDF84D /* Recursion.swift */,
+				ACF7B4CF229F9BD400CDF84D /* MaxStack.swift */,
+				ACF7B4D122A0B9D700CDF84D /* Graph.swift */,
+				ACF7B4D322A0E0CD00CDF84D /* Heap.swift */,
+				ACF7B4D522A2279E00CDF84D /* IsomorphicStrings.swift */,
+				ACF7B4D722A3027400CDF84D /* FlowerBed.swift */,
+				ACF7B4D922A30CE300CDF84D /* SumOfSquares.swift */,
+				ACF7B4DB22A4430900CDF84D /* SecondMinimum.swift */,
+				ACF7B4DD22A4A56300CDF84D /* BinaryZigZag.swift */,
+				ACF7B4DF22A4C47F00CDF84D /* BinaryTreeLCA.swift */,
+				ACF7B4E122ACB0B000CDF84D /* QuickSort.swift */,
+				ACF7B4E322AE23D500CDF84D /* MaxProduct.swift */,
+				AC27ADD222B4B76C003E640B /* Paranthesis.swift */,
+				ACE9FECF22B4D3530079BF96 /* FindAllPaths.swift */,
+				ACE9FED122B561E40079BF96 /* GroupAnagrams.swift */,
+				ACE9FED322B586920079BF96 /* ArrayDegree.swift */,
+				AC27ADD422B5D3C6003E640B /* PermutationRevision.swift */,
+				ACE9FED522B5EA7E0079BF96 /* Subsets.swift */,
+				ACE9FED722B616A80079BF96 /* BinaryTreeLevelOrder.swift */,
+				AC27ADD622BEFCB5003E640B /* MovingAvg.swift */,
+				AC27ADD822BF1485003E640B /* FloodFill.swift */,
+				AC27ADDA22C505E3003E640B /* SpiralMatrix.swift */,
+				ACBACD2222D13B68003E51DB /* StringCompress.swift */,
+				ACBACD2422D163EE003E51DB /* RotatedSortedArray.swift */,
+				ACBACD2622D187D9003E51DB /* GenerateParanthesis.swift */,
+				ACBACD2A22D1B92F003E51DB /* NumberOfIslands.swift */,
+				ACBACD2E22D257BE003E51DB /* BasicCalculator2.swift */,
+				ACBACD3222D2DF67003E51DB /* CoinChange.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		AC1E7BE8222CAFCF0025DB29 /* AlgorithmsTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC1E7BE9222CAFCF0025DB29 /* AlgorithmsTests.swift */,
+				ACBACD2822D1882C003E51DB /* GenerateParanthesisTests.swift */,
+				AC1E7BEB222CAFCF0025DB29 /* Info.plist */,
+				ACBACD2C22D1BCCA003E51DB /* NumberOfIslandsTests.swift */,
+				ACBACD3022D2584F003E51DB /* BasicCalculator2Tests.swift */,
+				ACBACD3422D2E532003E51DB /* CoinChangeTests.swift */,
+			);
+			path = AlgorithmsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +244,24 @@
 			productReference = AC1E7BC9222CABAF0025DB29 /* Algorithms.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AC1E7BE6222CAFCF0025DB29 /* AlgorithmsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC1E7BEE222CAFCF0025DB29 /* Build configuration list for PBXNativeTarget "AlgorithmsTests" */;
+			buildPhases = (
+				AC1E7BE3222CAFCF0025DB29 /* Sources */,
+				AC1E7BE4222CAFCF0025DB29 /* Frameworks */,
+				AC1E7BE5222CAFCF0025DB29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC1E7BED222CAFCF0025DB29 /* PBXTargetDependency */,
+			);
+			name = AlgorithmsTests;
+			productName = AlgorithmsTests;
+			productReference = AC1E7BE7222CAFCF0025DB29 /* AlgorithmsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +274,10 @@
 				TargetAttributes = {
 					AC1E7BC8222CABAE0025DB29 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					AC1E7BE6222CAFCF0025DB29 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AC1E7BC8222CABAE0025DB29;
 					};
 				};
 			};
@@ -113,6 +295,7 @@
 			projectRoot = "";
 			targets = (
 				AC1E7BC8222CABAE0025DB29 /* Algorithms */,
+				AC1E7BE6222CAFCF0025DB29 /* AlgorithmsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -124,7 +307,13 @@
 			files = (
 				AC1E7BD7222CABB10025DB29 /* LaunchScreen.storyboard in Resources */,
 				AC1E7BD4222CABB10025DB29 /* Assets.xcassets in Resources */,
-				AC1E7BD2222CABAF0025DB29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1E7BE5222CAFCF0025DB29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +324,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1E7BCF222CABAF0025DB29 /* ViewController.swift in Sources */,
+				ACF7B4C8229C5CFF00CDF84D /* ProductOfArrayExceptItself.swift in Sources */,
+				ACE9FED222B561E40079BF96 /* GroupAnagrams.swift in Sources */,
+				ACBACD2B22D1B92F003E51DB /* NumberOfIslands.swift in Sources */,
+				ACF7B4D222A0B9D700CDF84D /* Graph.swift in Sources */,
+				ACF7B4DC22A4430900CDF84D /* SecondMinimum.swift in Sources */,
+				ACF7B4DA22A30CE300CDF84D /* SumOfSquares.swift in Sources */,
+				AC1E7CA5223020460025DB29 /* SpiralPrintArray.swift in Sources */,
+				ACE9FED822B616A80079BF96 /* BinaryTreeLevelOrder.swift in Sources */,
+				ACE9FECE22B230ED0079BF96 /* PerfectSquare.swift in Sources */,
+				AC27ADD322B4B76C003E640B /* Paranthesis.swift in Sources */,
+				ACBACD2722D187D9003E51DB /* GenerateParanthesis.swift in Sources */,
+				ACE9FED022B4D3540079BF96 /* FindAllPaths.swift in Sources */,
 				AC1E7BCD222CABAF0025DB29 /* AppDelegate.swift in Sources */,
+				ACF7B4D822A3027400CDF84D /* FlowerBed.swift in Sources */,
+				AC27ADD522B5D3C6003E640B /* PermutationRevision.swift in Sources */,
+				AC27ADDB22C505E3003E640B /* SpiralMatrix.swift in Sources */,
+				ACBACD2522D163EE003E51DB /* RotatedSortedArray.swift in Sources */,
+				ACBACD2322D13B68003E51DB /* StringCompress.swift in Sources */,
+				ACF7B4E022A4C47F00CDF84D /* BinaryTreeLCA.swift in Sources */,
+				ACF7B4C6229C493C00CDF84D /* MergeIntervals.swift in Sources */,
+				ACE9FED422B586920079BF96 /* ArrayDegree.swift in Sources */,
+				ACF7B4C2229B6A0200CDF84D /* LinkedList.swift in Sources */,
+				ACF7B4CE229E4EAC00CDF84D /* Recursion.swift in Sources */,
+				ACF7B4CA229CC9C500CDF84D /* Permutations.swift in Sources */,
+				AC1E7BE2222CAEDE0025DB29 /* AlgorithmTester.swift in Sources */,
+				ACF7B4D622A2279E00CDF84D /* IsomorphicStrings.swift in Sources */,
+				ACF7B4E422AE23D500CDF84D /* MaxProduct.swift in Sources */,
+				ACE9FED622B5EA7E0079BF96 /* Subsets.swift in Sources */,
+				ACF7B4CC229E286000CDF84D /* RandomPick.swift in Sources */,
+				ACBACD3322D2DF67003E51DB /* CoinChange.swift in Sources */,
+				AC27ADD922BF1485003E640B /* FloodFill.swift in Sources */,
+				ACF7B4D0229F9BD400CDF84D /* MaxStack.swift in Sources */,
+				ACF7B4E222ACB0B000CDF84D /* QuickSort.swift in Sources */,
+				AC27ADD722BEFCB6003E640B /* MovingAvg.swift in Sources */,
+				ACBACD2F22D257BE003E51DB /* BasicCalculator2.swift in Sources */,
+				ACF7B4DE22A4A56300CDF84D /* BinaryZigZag.swift in Sources */,
+				AC1E7BE0222CABE80025DB29 /* BinarySearch.swift in Sources */,
+				ACF7B4C4229BA35300CDF84D /* MaximumSubarray.swift in Sources */,
+				ACF7B4D422A0E0CD00CDF84D /* Heap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1E7BE3222CAFCF0025DB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1E7BEA222CAFCF0025DB29 /* AlgorithmsTests.swift in Sources */,
+				ACBACD2922D1882C003E51DB /* GenerateParanthesisTests.swift in Sources */,
+				ACBACD2D22D1BCCA003E51DB /* NumberOfIslandsTests.swift in Sources */,
+				ACBACD3522D2E532003E51DB /* CoinChangeTests.swift in Sources */,
+				ACBACD3122D2584F003E51DB /* BasicCalculator2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		AC1E7BD0222CABAF0025DB29 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC1E7BD1222CABAF0025DB29 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		AC1E7BED222CAFCF0025DB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC1E7BC8222CABAE0025DB29 /* Algorithms */;
+			targetProxy = AC1E7BEC222CAFCF0025DB29 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		AC1E7BD5222CABB10025DB29 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,6 +458,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -274,6 +513,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -312,6 +552,44 @@
 			};
 			name = Release;
 		};
+		AC1E7BEF222CAFCF0025DB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlgorithmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myCompany.AlgorithmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
+			};
+			name = Debug;
+		};
+		AC1E7BF0222CAFCF0025DB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlgorithmsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = myCompany.AlgorithmsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -329,6 +607,15 @@
 			buildConfigurations = (
 				AC1E7BDC222CABB10025DB29 /* Debug */,
 				AC1E7BDD222CABB10025DB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC1E7BEE222CAFCF0025DB29 /* Build configuration list for PBXNativeTarget "AlgorithmsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1E7BEF222CAFCF0025DB29 /* Debug */,
+				AC1E7BF0222CAFCF0025DB29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

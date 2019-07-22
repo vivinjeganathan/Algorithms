@@ -15,8 +15,110 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let nav = UINavigationController(rootViewController: UIViewController())
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
+        
+        //let algorithmTester = AlgorithmTester()
+        //algorithmTester.testWithSampleInputs()
+        //print(countDuplicates(numbers: [1,3,1,4,5,6,3,2]))
+        
+        //LinkedList.executeSample()
+        //print(MaximumSubarray.maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
+        
+        //print(MergeIntervals.merge([[1,4],[2,3]]))
+        
+        //print(ProductOfArrayExceptItself.productExceptSelf([1,2,3,4]))
+        
+        //Permutations.permute(["a","b","c"])
+        
+//        let randomPick = RandomPick([1,3,4,4])
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+//        print(randomPick.pickIndex())
+        
+//        Recursion().printRecursion(string: "HELLO")
+        
+//        let maxStack = MaxStack()
+//        maxStack.push(5)
+//        maxStack.push(15)
+//        maxStack.push(4)
+//        maxStack.push(7)
+        
+//        print(maxStack.push(74))
+//        print(maxStack.popMax())
+//        print(maxStack.push(89))
+//        print(maxStack.push(67))
+//        print(maxStack.popMax())
+//        print(maxStack.pop())
+//        print(maxStack.push(61))
+//        print(maxStack.push(-77))
+//        print(maxStack.peekMax())
+//        print(maxStack.popMax())
+//        print(maxStack.push(81))
+//        print(maxStack.pop())
+//        print(maxStack.push(-71))
+//        print(maxStack.push(32))
+        
+//        let graph = Graph<Int>.sampleGraph()
+//        print(graph.depthFirstTraversal())
+//        print(graph.breadthFirstTraversal())
+//
+//        let graph2 = Graph<String>.sampleGraphStringNodes()
+//        print(graph2.depthFirstTraversal())
+//        print(graph2.breadthFirstTraversal())
+        
+//        print(IsomorphicStrings.isIsomorphic("ab", "ca"))
+        
+//        print(FlowerBed.canPlaceFlowers([0,0,1,0,1], 1))
+        
+//        print(SumOfSquares.judgeSquareSum(5))
+//        print(SecondMinimum.testFindSecondMin())
+//        BinaryZigZag.testzigzagLevelOrder()
+//        BinaryTreeLCA.testBinaryTreeLCA()
+//        QuickSort.example()
+//        MaxProduct.testMaxProduct()
+//        PerfectSquare().test()
+//        Paranthesis().test()
+//        FindAllPaths().test()
+//        GroupAnagrams().test()
+        
+//        ArrayDegree().sample()
+//        PermutationRevision().test()
+//        Subsets().sample()
+//        BinaryTreeLevelOrder().test()
+//        MovingAvg().test()
+//        FloodFill().test()
+//        SpiralMatrix().test()
+//        StringCompress().test()
+        RotatedSortedArray().test()
         return true
+    }
+    
+    func countDuplicates(numbers: [Int]) -> Int {
+        
+        var dictionary = [Int: Int]()
+        
+        numbers.forEach { (number) in
+            dictionary[number] = (dictionary[number] ?? 0) + 1
+        }
+        
+        return dictionary.reduce(0) { (result, tuple) in
+            return result + (tuple.value > 1 ? 1 : 0)
+        }
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
